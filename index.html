@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+   
+        .header {
+            padding: 10px;
+            background-color: blue;
+            display: flex;
+        }
+
+        .header .logo {}
+
+        .header .menu {
+            list-style: none;
+            display: flex;
+        }
+
+        .header .menu li {
+            padding: 10px;
+        }
+        #page-content {}
+
+
+
+        .main {
+            display: flex;
+        }
+
+        .main .sidebar {
+            width: 200px;
+        }
+
+        .main .sidebar ul {}
+
+        .main .sidebar ul li {}
+
+        .main .content {
+            width: calc(100% - 200px);
+        }
+
+        .main .content .page-heading {}
+
+        .main .content .page-heading {}
+
+        .main p {}
+
+        .footer {
+            background-color: blueviolet;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+  
+    <main class="main">
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li>heading 1</li>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+                <li>fourth</li>
+            </ul>
+            <ul>
+                <li>heading 2</li>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+            </ul>
+            <ul>
+                <li>heading 3</li>
+                <li>first</li>
+                <li>second</li>
+            </ul>
+        </aside>
+
+       
+        <div class="content">
+            <article>
+                <h1 class="page-heading">article1</h1>
+                <p id="page-content">
+                    "hello world"
+
+
+                </p>
+                
+            </article>
+            
+            <article>
+                <h2>Article 2</h2>
+                <p>
+                    "hello world 2"
+
+
+                </p>
+            </article>
+
+            <article>
+                <h2>article 3</h2>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>one</th>
+                            <th>Two</th>
+                            <th>Three</th>
+                            <th>four</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>information</td>
+                            <td>information</td>
+                            <td>information</td>
+                            <td>information</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>footer</p>
+    </footer>
+
+
+</body>
+
+</html>
